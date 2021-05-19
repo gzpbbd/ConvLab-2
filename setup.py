@@ -38,7 +38,7 @@ setup(
         'visdom',
         'Pillow',
         'future',
-        'torch>=1.2.0,<1.6.0',
+        'torch', # 'torch>=1.2.0,<1.6.0
         'numpy>=1.15.0',
         'scipy',
         'scikit-learn==0.20.3',
@@ -46,12 +46,12 @@ setup(
         'transformers>=2.3.0,<3.0.0',
         'tensorboard>=1.14.0',
         'tensorboardX==1.7',
-        'tokenizers>=0.8.0',
+        'tokenizers==0.7.0',
         'overrides==4.1.2',
         'allennlp==0.9.0',
         'requests',
         'simplejson',
-        'spacy==2.1.9',
+        'spacy==2.2.2', #'spacy==2.1.9', 
         'unidecode',
         'jieba',
         'embeddings',
@@ -60,6 +60,7 @@ setup(
         'fuzzywuzzy',
         'python-Levenshtein',
         'json_lines'
+        'urllib3<1.27,>=1.25.10'
     ],
     extras_require={
         'develop': [
